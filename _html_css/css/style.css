@@ -96,6 +96,9 @@ a {
 	margin-bottom: 15px;
 	background-color: var(--light-color);
 	border-radius: 5px;
+	
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .chat-messages .message .meta {
@@ -135,15 +138,16 @@ a {
 
 .join-header {
 	text-align: center;
-	padding: 20px;
-	background: var(--dark-color-a);
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+    padding: 20px;
+    background: #81b681;
+    /* border-bottom-left-radius: 50px; */
+    border-top-right-radius: 50px;
 }
 
 .join-main {
 	padding: 30px 40px;
-	background: var(--dark-color-b);
+    background: #81b681;
+    border-bottom-left-radius: 50px;
 }
 
 .join-main p {
